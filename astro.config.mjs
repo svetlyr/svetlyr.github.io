@@ -2,5 +2,5 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://svetlyR.github.io",
+  site: "https://svetlyr.github.io",
 });
