@@ -5,5 +5,15 @@
   "singleQuote": false,
   "trailingComma": "all",
   "bracketSpacing": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+
+  // * Needed for prettier-plugin-astro with pnpm
+  "pluginSearchDirs": ["."],
+  "plugins": ["./node_modules/prettier-plugin-astro"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": { "parser": "astro" }
+    }
+  ]
 }
