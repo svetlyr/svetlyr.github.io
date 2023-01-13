@@ -1,6 +1,6 @@
 {
   "extends": "astro/tsconfigs/strictest",
-  "include": ["**/*.ts", "**/*.tsx", "**/*.astro"],
+  "include": ["src/**/*"],
   "compilerOptions": {
     "jsx": "react-jsx",
     "declaration": true,
