@@ -1,3 +1,23 @@
 {
-  "extends": "astro/tsconfigs/strictest"
+  "extends": "astro/tsconfigs/strictest",
+  "include": ["**/*.ts", "**/*.tsx", "**/*.astro"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declaration": true,
+    "incremental": true,
+    "skipLibCheck": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noUnusedLocals": false, // * Override "strictest" preset. Enforced by ESLint rule
+    "strictNullChecks": true,
+    "jsxImportSource": "react",
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
