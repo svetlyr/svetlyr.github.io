@@ -7,7 +7,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.48.1
   '@typescript-eslint/parser': ^5.48.1
   astro: ^1.9.2
-  astro-seo-metadata: ^0.5.4
+  astro-seo: ^0.6.1
   eslint: ^8.31.0
   eslint-config-prettier: ^8.6.0
   eslint-import-resolver-typescript: ^3.5.3
@@ -29,7 +29,7 @@ dependencies:
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
   astro: 1.9.2
-  astro-seo-metadata: 0.5.4
+  astro-seo: 0.6.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -1007,8 +1007,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /astro-eslint-parser/0.9.4:
-    resolution: {integrity: sha512-hTndQbL2sQlAWIK79/kMV/Ddx0RYoat4ZIYUdAGBTQx4E4u7rqf4V2C0OmYcGfXxWFh7Md94O5sORcZosFIjVQ==}
+  /astro-eslint-parser/0.9.5:
+    resolution: {integrity: sha512-LxcfrKZ0DxVpObAyrtk9IzEazHvtwAnuB33qrJnIZ8uA9PQgp9cBhFDDgoQGgpm8XnbwvqM7i9MhGWrCh5x43Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 0.32.0
@@ -1022,8 +1022,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro-seo-metadata/0.5.4:
-    resolution: {integrity: sha512-FEJYkie6PfRA/K0eBK3idJpu7EcKWnfJZWDBviADyko0w5mfLgw8zySF6mM2zZqWqRp7eOglG8FIOyrIAbjppQ==}
+  /astro-seo/0.6.1:
+    resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: false
 
   /astro/1.9.2:
@@ -1903,7 +1903,7 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.14
       '@typescript-eslint/types': 5.48.1
-      astro-eslint-parser: 0.9.4
+      astro-eslint-parser: 0.9.5
       eslint: 8.31.0
       eslint-utils: 3.0.0_eslint@8.31.0
       postcss: 8.4.21

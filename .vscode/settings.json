@@ -5,5 +5,5 @@
   },
   "eslint.validate": ["astro", "typescript", "typescriptreact"],
 
-  "conventionalCommits.scopes": ["general"]
+  "conventionalCommits.scopes": ["project"]
 }

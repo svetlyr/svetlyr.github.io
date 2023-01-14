@@ -2,6 +2,7 @@
   "extends": "astro/tsconfigs/strictest",
   "include": ["src/**/*"],
   "compilerOptions": {
+    "baseUrl": ".",
     "jsx": "react-jsx",
     "declaration": true,
     "incremental": true,
@@ -18,6 +19,10 @@
     "noFallthroughCasesInSwitch": true,
     "useUnknownInCatchVariables": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "paths": {
+      "@components/*": ["src/components/*"]
+    }
   }
 }
