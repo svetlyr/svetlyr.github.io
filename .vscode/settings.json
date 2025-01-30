@@ -1,9 +1,0 @@
-{
-  "prettier.documentSelectors": ["**/*.astro"],
-  "[astro]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "eslint.validate": ["astro", "typescript", "typescriptreact"],
-
-  "conventionalCommits.scopes": ["project"]
-}
